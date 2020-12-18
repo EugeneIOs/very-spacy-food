@@ -1,27 +1,40 @@
 PODS:
+  - CardIOSDK (5.5.4)
   - CardScan (1.0.5048):
     - CardScan/Core (= 1.0.5048)
   - CardScan/Core (1.0.5048)
   - VGSCollectSDK (1.7.2):
     - VGSCollectSDK/Core (= 1.7.2)
+  - VGSCollectSDK/CardIO (1.7.2):
+    - CardIOSDK (= 5.5.4)
+    - VGSCollectSDK/Core
   - VGSCollectSDK/CardScan (1.7.2):
     - CardScan (= 1.0.5048)
     - VGSCollectSDK/Core
   - VGSCollectSDK/Core (1.7.2)
+  - VGSShowSDK (1.0.0):
+    - VGSShowSDK/Core (= 1.0.0)
+  - VGSShowSDK/Core (1.0.0)
 
 DEPENDENCIES:
   - VGSCollectSDK
-  - VGSCollectSDK/CardScan (= 1.7.2)
+  - VGSCollectSDK/CardIO
+  - VGSCollectSDK/CardScan
+  - VGSShowSDK
 
 SPEC REPOS:
   trunk:
+    - CardIOSDK
     - CardScan
     - VGSCollectSDK
+    - VGSShowSDK
 
 SPEC CHECKSUMS:
+  CardIOSDK: aa1cc4ee555579f6ae3b32e1cf0868482552cf85
   CardScan: 10351d0482dac59379cfb907e0046aeaed568d0f
   VGSCollectSDK: ac5395d85561c39257e7926d70d50a51fcc686fe
+  VGSShowSDK: c25e01885f9757e4dabf9697295154d31fbe1ccf
 
-PODFILE CHECKSUM: 9b0f254ef04094e312d8167613510119399e92d5
+PODFILE CHECKSUM: cd1877713b4a57b3b2ccba147fafb11775900688
 
 COCOAPODS: 1.10.0

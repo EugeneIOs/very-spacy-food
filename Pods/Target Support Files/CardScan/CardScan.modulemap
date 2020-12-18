@@ -1,4 +1,4 @@
-framework module CardScan {
+module CardScan {
   umbrella header "CardScan-umbrella.h"
 
   export *

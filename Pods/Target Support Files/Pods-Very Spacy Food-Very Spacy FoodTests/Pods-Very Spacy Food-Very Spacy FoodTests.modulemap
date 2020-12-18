@@ -1,0 +1,6 @@
+module Pods_Very_Spacy_Food_Very_Spacy_FoodTests {
+  umbrella header "Pods-Very Spacy Food-Very Spacy FoodTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

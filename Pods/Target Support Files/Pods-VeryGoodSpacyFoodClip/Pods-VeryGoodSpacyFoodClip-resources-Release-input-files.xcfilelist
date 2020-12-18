@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/CardScan/CardScan.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/VGSCollectSDK/CardIcon.bundle

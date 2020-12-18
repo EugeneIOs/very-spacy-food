@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A95D55CADA07DF17A2D4E54 /* libPods-Very Spacy Food.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04076E7F9CC27D5EB2FACBD2 /* libPods-Very Spacy Food.a */; };
 		3213002924193DB50062FEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213002824193DB50062FEF0 /* AppDelegate.swift */; };
 		3213003024193DB50062FEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3213002E24193DB50062FEF0 /* Main.storyboard */; };
 		3213003524193DB70062FEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3213003324193DB70062FEF0 /* LaunchScreen.storyboard */; };
@@ -28,13 +29,13 @@
 		44042763258C818A009102FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44042762258C818A009102FC /* Assets.xcassets */; };
 		44042766258C818A009102FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44042764258C818A009102FC /* LaunchScreen.storyboard */; };
 		4404276B258C818A009102FC /* VeryGoodSpacyFoodClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 44042757258C8189009102FC /* VeryGoodSpacyFoodClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44A1942B258CB33B000689E6 /* AppClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A1942A258CB33B000689E6 /* AppClip.framework */; };
 		44F8FCD9258C82DB004CE34B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8FCD8258C82DB004CE34B /* MenuItem.swift */; };
 		44F8FCE3258C8309004CE34B /* MenuItemDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8FCE2258C8309004CE34B /* MenuItemDataProvider.swift */; };
 		44F8FCF8258C9219004CE34B /* VGSAppClipRouteEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8FCF6258C9219004CE34B /* VGSAppClipRouteEvent.swift */; };
 		44F8FCF9258C9219004CE34B /* VGSAppClipEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8FCF7258C9219004CE34B /* VGSAppClipEventHandler.swift */; };
-		64CE6254F6513F355B61D4B4 /* Pods_Very_Spacy_FoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4B91C61C528B7304EA1CB2 /* Pods_Very_Spacy_FoodTests.framework */; };
-		843B166D58FA4165D5E865E5 /* Pods_Very_Spacy_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FAA78C2EE779D8F28BCF0 /* Pods_Very_Spacy_Food.framework */; };
-		9EE78E60FD51E746FDB6A9AC /* libPods-VeryGoodSpacyFoodClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CC22C6FE2EEE67598442F2 /* libPods-VeryGoodSpacyFoodClip.a */; };
+		57C8F0F9D5004A7CFD872A78 /* libPods-Very Spacy Food-Very Spacy FoodTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE0AE549FB4D2FBCB347F3 /* libPods-Very Spacy Food-Very Spacy FoodTests.a */; };
+		B05F51D67BAA8F940323208B /* libPods-VeryGoodSpacyFoodClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C0E145D4BCB8ED1CDCE537 /* libPods-VeryGoodSpacyFoodClip.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04076E7F9CC27D5EB2FACBD2 /* libPods-Very Spacy Food.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Very Spacy Food.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4C5E1DCF1A2D795569E99D /* Pods-Very Spacy Food-Very Spacy FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy Food-Very Spacy FoodTests.release.xcconfig"; path = "Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		22CA3C04905FFF623B69F976 /* Pods_Very_Spacy_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Very_Spacy_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30379A4FFB23A5FDC71F00E5 /* Pods-Very Spacy FoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy FoodTests.debug.xcconfig"; path = "Target Support Files/Pods-Very Spacy FoodTests/Pods-Very Spacy FoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3213002524193DB50062FEF0 /* Very Very Spacy Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Very Very Spacy Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3213002824193DB50062FEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3213002F24193DB50062FEF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,7 +102,7 @@
 		327F8E8824227A0200112868 /* CollectCreditCardDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectCreditCardDataViewController.swift; sourceTree = "<group>"; };
 		327F8E8E2423BE6A00112868 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		32AAAC4924212C4200A68317 /* MenuItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsViewController.swift; sourceTree = "<group>"; };
-		3D4F9079FDCEB1FBDBF3B157 /* Pods-Spacy Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacy Food.debug.xcconfig"; path = "Target Support Files/Pods-Spacy Food/Pods-Spacy Food.debug.xcconfig"; sourceTree = "<group>"; };
+		382460AEF11E84DFCAF8837D /* Pods-VeryGoodSpacyFoodClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryGoodSpacyFoodClip.release.xcconfig"; path = "Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip.release.xcconfig"; sourceTree = "<group>"; };
 		44042757258C8189009102FC /* VeryGoodSpacyFoodClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryGoodSpacyFoodClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44042759258C8189009102FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4404275D258C8189009102FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,20 +111,18 @@
 		44042765258C818A009102FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44042767258C818A009102FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44042768258C818A009102FC /* VeryGoodSpacyFoodClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VeryGoodSpacyFoodClip.entitlements; sourceTree = "<group>"; };
+		44A1942A258CB33B000689E6 /* AppClip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppClip.framework; path = System/Library/Frameworks/AppClip.framework; sourceTree = SDKROOT; };
 		44F8FCD8258C82DB004CE34B /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		44F8FCE2258C8309004CE34B /* MenuItemDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDataProvider.swift; sourceTree = "<group>"; };
 		44F8FCF6258C9219004CE34B /* VGSAppClipRouteEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGSAppClipRouteEvent.swift; sourceTree = "<group>"; };
 		44F8FCF7258C9219004CE34B /* VGSAppClipEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGSAppClipEventHandler.swift; sourceTree = "<group>"; };
-		6948703D5C61EC3783919F2D /* Pods-VeryGoodSpacyFoodClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryGoodSpacyFoodClip.debug.xcconfig"; path = "Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip.debug.xcconfig"; sourceTree = "<group>"; };
-		85CB1BB7BBCB07E2AA5EB2B1 /* Pods-Very Spacy FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy FoodTests.release.xcconfig"; path = "Target Support Files/Pods-Very Spacy FoodTests/Pods-Very Spacy FoodTests.release.xcconfig"; sourceTree = "<group>"; };
-		9DA6F608D3217745D7C2E73C /* Pods-Very Spacy Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy Food.release.xcconfig"; path = "Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food.release.xcconfig"; sourceTree = "<group>"; };
-		AB2BB1CD6FB846698B3FE355 /* Pods-Spacy Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacy Food.release.xcconfig"; path = "Target Support Files/Pods-Spacy Food/Pods-Spacy Food.release.xcconfig"; sourceTree = "<group>"; };
-		B8CC22C6FE2EEE67598442F2 /* libPods-VeryGoodSpacyFoodClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VeryGoodSpacyFoodClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE4B91C61C528B7304EA1CB2 /* Pods_Very_Spacy_FoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Very_Spacy_FoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4ED15166E44F028784DBDD1 /* Pods-Very Spacy Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy Food.debug.xcconfig"; path = "Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food.debug.xcconfig"; sourceTree = "<group>"; };
-		DD4351E846C5B27B13C8DD5E /* Pods-VeryGoodSpacyFoodClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryGoodSpacyFoodClip.release.xcconfig"; path = "Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip.release.xcconfig"; sourceTree = "<group>"; };
-		EF9FAA78C2EE779D8F28BCF0 /* Pods_Very_Spacy_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Very_Spacy_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD11FDAE99475E592CF2039B /* Pods-Very Spacy FoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy FoodTests.debug.xcconfig"; path = "Target Support Files/Pods-Very Spacy FoodTests/Pods-Very Spacy FoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA074EB2A0258193EAE9F19 /* Pods-VeryGoodSpacyFoodClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeryGoodSpacyFoodClip.debug.xcconfig"; path = "Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip.debug.xcconfig"; sourceTree = "<group>"; };
+		65C0E145D4BCB8ED1CDCE537 /* libPods-VeryGoodSpacyFoodClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VeryGoodSpacyFoodClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBA5DC6E463F71C58CB24DA /* Pods-Very Spacy Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy Food.release.xcconfig"; path = "Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food.release.xcconfig"; sourceTree = "<group>"; };
+		B9EE0AE549FB4D2FBCB347F3 /* libPods-Very Spacy Food-Very Spacy FoodTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Very Spacy Food-Very Spacy FoodTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C976E8B3643739E462143C56 /* Pods-Very Spacy Food-Very Spacy FoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy Food-Very Spacy FoodTests.debug.xcconfig"; path = "Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F63C57AF475CAEC79C0401F0 /* Pods-Very Spacy FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy FoodTests.release.xcconfig"; path = "Target Support Files/Pods-Very Spacy FoodTests/Pods-Very Spacy FoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		F92FFCA893BD7622F4F7083D /* Pods-Very Spacy Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy Food.debug.xcconfig"; path = "Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843B166D58FA4165D5E865E5 /* Pods_Very_Spacy_Food.framework in Frameworks */,
+				0A95D55CADA07DF17A2D4E54 /* libPods-Very Spacy Food.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CE6254F6513F355B61D4B4 /* Pods_Very_Spacy_FoodTests.framework in Frameworks */,
+				57C8F0F9D5004A7CFD872A78 /* libPods-Very Spacy Food-Very Spacy FoodTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE78E60FD51E746FDB6A9AC /* libPods-VeryGoodSpacyFoodClip.a in Frameworks */,
+				44A1942B258CB33B000689E6 /* AppClip.framework in Frameworks */,
+				B05F51D67BAA8F940323208B /* libPods-VeryGoodSpacyFoodClip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +170,8 @@
 				44042758258C8189009102FC /* VeryGoodSpacyFoodClip */,
 				3213002624193DB50062FEF0 /* Products */,
 				E8CFFFBA74994B280D860A4A /* Pods */,
-				C547A935D223323B9EEA2770 /* Frameworks */,
+				9281D50C277C9F4068717F22 /* Frameworks */,
+				4419638F258CB60200CAFBB3 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -292,6 +297,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		4419638F258CB60200CAFBB3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				22CA3C04905FFF623B69F976 /* Pods_Very_Spacy_Food.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		44F8FCF0258C84CF004CE34B /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,12 +355,13 @@
 			path = VGSAppClipRouteEvent;
 			sourceTree = "<group>";
 		};
-		C547A935D223323B9EEA2770 /* Frameworks */ = {
+		9281D50C277C9F4068717F22 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF9FAA78C2EE779D8F28BCF0 /* Pods_Very_Spacy_Food.framework */,
-				BE4B91C61C528B7304EA1CB2 /* Pods_Very_Spacy_FoodTests.framework */,
-				B8CC22C6FE2EEE67598442F2 /* libPods-VeryGoodSpacyFoodClip.a */,
+				44A1942A258CB33B000689E6 /* AppClip.framework */,
+				65C0E145D4BCB8ED1CDCE537 /* libPods-VeryGoodSpacyFoodClip.a */,
+				04076E7F9CC27D5EB2FACBD2 /* libPods-Very Spacy Food.a */,
+				B9EE0AE549FB4D2FBCB347F3 /* libPods-Very Spacy Food-Very Spacy FoodTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -355,14 +369,14 @@
 		E8CFFFBA74994B280D860A4A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D4F9079FDCEB1FBDBF3B157 /* Pods-Spacy Food.debug.xcconfig */,
-				AB2BB1CD6FB846698B3FE355 /* Pods-Spacy Food.release.xcconfig */,
-				C4ED15166E44F028784DBDD1 /* Pods-Very Spacy Food.debug.xcconfig */,
-				9DA6F608D3217745D7C2E73C /* Pods-Very Spacy Food.release.xcconfig */,
-				FD11FDAE99475E592CF2039B /* Pods-Very Spacy FoodTests.debug.xcconfig */,
-				85CB1BB7BBCB07E2AA5EB2B1 /* Pods-Very Spacy FoodTests.release.xcconfig */,
-				6948703D5C61EC3783919F2D /* Pods-VeryGoodSpacyFoodClip.debug.xcconfig */,
-				DD4351E846C5B27B13C8DD5E /* Pods-VeryGoodSpacyFoodClip.release.xcconfig */,
+				F92FFCA893BD7622F4F7083D /* Pods-Very Spacy Food.debug.xcconfig */,
+				8DBA5DC6E463F71C58CB24DA /* Pods-Very Spacy Food.release.xcconfig */,
+				30379A4FFB23A5FDC71F00E5 /* Pods-Very Spacy FoodTests.debug.xcconfig */,
+				F63C57AF475CAEC79C0401F0 /* Pods-Very Spacy FoodTests.release.xcconfig */,
+				5CA074EB2A0258193EAE9F19 /* Pods-VeryGoodSpacyFoodClip.debug.xcconfig */,
+				382460AEF11E84DFCAF8837D /* Pods-VeryGoodSpacyFoodClip.release.xcconfig */,
+				C976E8B3643739E462143C56 /* Pods-Very Spacy Food-Very Spacy FoodTests.debug.xcconfig */,
+				1D4C5E1DCF1A2D795569E99D /* Pods-Very Spacy Food-Very Spacy FoodTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -374,12 +388,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3213004424193DB70062FEF0 /* Build configuration list for PBXNativeTarget "Very Spacy Food" */;
 			buildPhases = (
-				E5A9B447FD381B9C81BCACE0 /* [CP] Check Pods Manifest.lock */,
+				551D8F565B72B874BE14870B /* [CP] Check Pods Manifest.lock */,
 				3213002124193DB50062FEF0 /* Sources */,
 				3213002224193DB50062FEF0 /* Frameworks */,
 				3213002324193DB50062FEF0 /* Resources */,
-				857539B5D8FF3AA9E105C874 /* [CP] Embed Pods Frameworks */,
 				4404276C258C818A009102FC /* Embed App Clips */,
+				D37E0413BDA4BD93F7EE5308 /* [CP] Embed Pods Frameworks */,
+				D085807CDB596FC6B1AE33F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,10 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3213004724193DB70062FEF0 /* Build configuration list for PBXNativeTarget "Very Spacy FoodTests" */;
 			buildPhases = (
-				EF9C7E2656D1FDE0C1203B94 /* [CP] Check Pods Manifest.lock */,
+				76E6A9908B19D1B404EE23B4 /* [CP] Check Pods Manifest.lock */,
 				3213003724193DB70062FEF0 /* Sources */,
 				3213003824193DB70062FEF0 /* Frameworks */,
 				3213003924193DB70062FEF0 /* Resources */,
+				8F9FBA2506321AF746BF397C /* [CP] Embed Pods Frameworks */,
+				AE6E89AB80E6A9563C1CB908 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -432,11 +449,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4404276F258C818A009102FC /* Build configuration list for PBXNativeTarget "VeryGoodSpacyFoodClip" */;
 			buildPhases = (
-				976D49081E853670ABD55EEE /* [CP] Check Pods Manifest.lock */,
+				5BD4416F017DF027088459AE /* [CP] Check Pods Manifest.lock */,
 				44042753258C8189009102FC /* Sources */,
 				44042754258C8189009102FC /* Frameworks */,
 				44042755258C8189009102FC /* Resources */,
-				21DF80E2CACA7AEF6B08BF82 /* [CP] Copy Pods Resources */,
+				3532CD2F68FF809CDF79E8BE /* [CP] Embed Pods Frameworks */,
+				7326ECC8BB0BE769C559F50E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -533,63 +551,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		21DF80E2CACA7AEF6B08BF82 /* [CP] Copy Pods Resources */ = {
+		3532CD2F68FF809CDF79E8BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		857539B5D8FF3AA9E105C874 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		976D49081E853670ABD55EEE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VeryGoodSpacyFoodClip-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5A9B447FD381B9C81BCACE0 /* [CP] Check Pods Manifest.lock */ = {
+		551D8F565B72B874BE14870B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -611,7 +590,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF9C7E2656D1FDE0C1203B94 /* [CP] Check Pods Manifest.lock */ = {
+		5BD4416F017DF027088459AE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -626,11 +605,118 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Very Spacy FoodTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VeryGoodSpacyFoodClip-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7326ECC8BB0BE769C559F50E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeryGoodSpacyFoodClip/Pods-VeryGoodSpacyFoodClip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E6A9908B19D1B404EE23B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Very Spacy Food-Very Spacy FoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9FBA2506321AF746BF397C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6E89AB80E6A9563C1CB908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food-Very Spacy FoodTests/Pods-Very Spacy Food-Very Spacy FoodTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D085807CDB596FC6B1AE33F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37E0413BDA4BD93F7EE5308 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -853,14 +939,14 @@
 		};
 		3213004524193DB70062FEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4ED15166E44F028784DBDD1 /* Pods-Very Spacy Food.debug.xcconfig */;
+			baseConfigurationReference = F92FFCA893BD7622F4F7083D /* Pods-Very Spacy Food.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4445Y664U5;
 				INFOPLIST_FILE = "Very Spacy Food/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -869,7 +955,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vgs.very-spacy-food";
 				PRODUCT_NAME = "Very Very Spacy Food";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "VGS AppStore";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -877,7 +963,7 @@
 		};
 		3213004624193DB70062FEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DA6F608D3217745D7C2E73C /* Pods-Very Spacy Food.release.xcconfig */;
+			baseConfigurationReference = 8DBA5DC6E463F71C58CB24DA /* Pods-Very Spacy Food.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -901,7 +987,7 @@
 		};
 		3213004824193DB70062FEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD11FDAE99475E592CF2039B /* Pods-Very Spacy FoodTests.debug.xcconfig */;
+			baseConfigurationReference = C976E8B3643739E462143C56 /* Pods-Very Spacy Food-Very Spacy FoodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -924,7 +1010,7 @@
 		};
 		3213004924193DB70062FEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85CB1BB7BBCB07E2AA5EB2B1 /* Pods-Very Spacy FoodTests.release.xcconfig */;
+			baseConfigurationReference = 1D4C5E1DCF1A2D795569E99D /* Pods-Very Spacy Food-Very Spacy FoodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -987,16 +1073,16 @@
 		};
 		4404276D258C818A009102FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6948703D5C61EC3783919F2D /* Pods-VeryGoodSpacyFoodClip.debug.xcconfig */;
+			baseConfigurationReference = 5CA074EB2A0258193EAE9F19 /* Pods-VeryGoodSpacyFoodClip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_ENTITLEMENTS = VeryGoodSpacyFoodClip/VeryGoodSpacyFoodClip.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4445Y664U5;
 				INFOPLIST_FILE = VeryGoodSpacyFoodClip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1005,7 +1091,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vgs.very-spacy-food.Clip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "VGS AppClip AppStore";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1013,7 +1099,7 @@
 		};
 		4404276E258C818A009102FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD4351E846C5B27B13C8DD5E /* Pods-VeryGoodSpacyFoodClip.release.xcconfig */;
+			baseConfigurationReference = 382460AEF11E84DFCAF8837D /* Pods-VeryGoodSpacyFoodClip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A35B702D709EA37681B6545A4E1EF1B"
-               BuildableName = "CardScan.framework"
+               BuildableName = "libCardScan.a"
                BlueprintName = "CardScan"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

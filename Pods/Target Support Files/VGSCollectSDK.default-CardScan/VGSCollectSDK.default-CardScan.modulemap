@@ -1,6 +1,0 @@
-framework module VGSCollectSDK {
-  umbrella header "VGSCollectSDK.default-CardScan-umbrella.h"
-
-  export *
-  module * { export * }
-}

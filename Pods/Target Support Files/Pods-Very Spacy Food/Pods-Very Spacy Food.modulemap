@@ -1,4 +1,4 @@
-framework module Pods_Very_Spacy_Food {
+module Pods_Very_Spacy_Food {
   umbrella header "Pods-Very Spacy Food-umbrella.h"
 
   export *
