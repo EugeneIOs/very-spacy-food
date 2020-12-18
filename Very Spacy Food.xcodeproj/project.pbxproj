@@ -22,6 +22,15 @@
 		327F8E8924227A0200112868 /* CollectCreditCardDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F8E8824227A0200112868 /* CollectCreditCardDataViewController.swift */; };
 		327F8E8F2423BE6A00112868 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F8E8E2423BE6A00112868 /* CheckoutViewController.swift */; };
 		32AAAC4A24212C4200A68317 /* MenuItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAAC4924212C4200A68317 /* MenuItemDetailsViewController.swift */; };
+		4404275A258C8189009102FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44042759258C8189009102FC /* AppDelegate.swift */; };
+		4404275C258C8189009102FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404275B258C8189009102FC /* SceneDelegate.swift */; };
+		4404275E258C8189009102FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404275D258C8189009102FC /* ViewController.swift */; };
+		44042761258C8189009102FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4404275F258C8189009102FC /* Main.storyboard */; };
+		44042763258C818A009102FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44042762258C818A009102FC /* Assets.xcassets */; };
+		44042766258C818A009102FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44042764258C818A009102FC /* LaunchScreen.storyboard */; };
+		4404276B258C818A009102FC /* VeryGoodSpacyFoodClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 44042757258C8189009102FC /* VeryGoodSpacyFoodClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44F8FCD9258C82DB004CE34B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8FCD8258C82DB004CE34B /* MenuItem.swift */; };
+		44F8FCE3258C8309004CE34B /* MenuItemDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8FCE2258C8309004CE34B /* MenuItemDataProvider.swift */; };
 		64CE6254F6513F355B61D4B4 /* Pods_Very_Spacy_FoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4B91C61C528B7304EA1CB2 /* Pods_Very_Spacy_FoodTests.framework */; };
 		843B166D58FA4165D5E865E5 /* Pods_Very_Spacy_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9FAA78C2EE779D8F28BCF0 /* Pods_Very_Spacy_Food.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +50,28 @@
 			remoteGlobalIDString = 3213002424193DB50062FEF0;
 			remoteInfo = "Very Spacy Food";
 		};
+		44042769258C818A009102FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3213001D24193DB50062FEF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44042756258C8189009102FC;
+			remoteInfo = VeryGoodSpacyFoodClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4404276C258C818A009102FC /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				4404276B258C818A009102FC /* VeryGoodSpacyFoodClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3213002524193DB50062FEF0 /* Very Very Spacy Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Very Very Spacy Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +96,17 @@
 		327F8E8E2423BE6A00112868 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		32AAAC4924212C4200A68317 /* MenuItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsViewController.swift; sourceTree = "<group>"; };
 		3D4F9079FDCEB1FBDBF3B157 /* Pods-Spacy Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacy Food.debug.xcconfig"; path = "Target Support Files/Pods-Spacy Food/Pods-Spacy Food.debug.xcconfig"; sourceTree = "<group>"; };
+		44042757258C8189009102FC /* VeryGoodSpacyFoodClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryGoodSpacyFoodClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44042759258C8189009102FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4404275B258C8189009102FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4404275D258C8189009102FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44042760258C8189009102FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44042762258C818A009102FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44042765258C818A009102FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44042767258C818A009102FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44042768258C818A009102FC /* VeryGoodSpacyFoodClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VeryGoodSpacyFoodClip.entitlements; sourceTree = "<group>"; };
+		44F8FCD8258C82DB004CE34B /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		44F8FCE2258C8309004CE34B /* MenuItemDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDataProvider.swift; sourceTree = "<group>"; };
 		85CB1BB7BBCB07E2AA5EB2B1 /* Pods-Very Spacy FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy FoodTests.release.xcconfig"; path = "Target Support Files/Pods-Very Spacy FoodTests/Pods-Very Spacy FoodTests.release.xcconfig"; sourceTree = "<group>"; };
 		9DA6F608D3217745D7C2E73C /* Pods-Very Spacy Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Very Spacy Food.release.xcconfig"; path = "Target Support Files/Pods-Very Spacy Food/Pods-Very Spacy Food.release.xcconfig"; sourceTree = "<group>"; };
 		AB2BB1CD6FB846698B3FE355 /* Pods-Spacy Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacy Food.release.xcconfig"; path = "Target Support Files/Pods-Spacy Food/Pods-Spacy Food.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +140,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		44042754258C8189009102FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -108,6 +156,7 @@
 				3213002724193DB50062FEF0 /* Very Spacy Food */,
 				3213003E24193DB70062FEF0 /* Spacy FoodTests */,
 				3258CB7E24D2DAB200C0CC8D /* Very Very Spacy FoodUITests */,
+				44042758258C8189009102FC /* VeryGoodSpacyFoodClip */,
 				3213002624193DB50062FEF0 /* Products */,
 				E8CFFFBA74994B280D860A4A /* Pods */,
 				C547A935D223323B9EEA2770 /* Frameworks */,
@@ -120,6 +169,7 @@
 				3213002524193DB50062FEF0 /* Very Very Spacy Food.app */,
 				3213003B24193DB70062FEF0 /* Very Spacy FoodTests.xctest */,
 				3258CB7D24D2DAB200C0CC8D /* Very Very Spacy FoodUITests.xctest */,
+				44042757258C8189009102FC /* VeryGoodSpacyFoodClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,18 +177,13 @@
 		3213002724193DB50062FEF0 /* Very Spacy Food */ = {
 			isa = PBXGroup;
 			children = (
-				3213002824193DB50062FEF0 /* AppDelegate.swift */,
-				3213004C241B952E0062FEF0 /* MenuViewController.swift */,
-				32AAAC4924212C4200A68317 /* MenuItemDetailsViewController.swift */,
-				327F8E8824227A0200112868 /* CollectCreditCardDataViewController.swift */,
-				327F8E8E2423BE6A00112868 /* CheckoutViewController.swift */,
-				32549F88242BC56000073BF3 /* ConfirmationViewController.swift */,
-				3213004E241BA1610062FEF0 /* MenuItemCell.swift */,
+				44042774258C81BB009102FC /* Application */,
+				44042776258C81F0009102FC /* Storyboards */,
+				44042775258C81CC009102FC /* Screens */,
+				4404277D258C8276009102FC /* Models */,
 				32449EAF243216920044AA4B /* Views */,
-				32449EAD2431E9F20044AA4B /* Utils.swift */,
-				3213002E24193DB50062FEF0 /* Main.storyboard */,
-				3213003324193DB70062FEF0 /* LaunchScreen.storyboard */,
-				32549F8A242E12A700073BF3 /* Assets.xcassets */,
+				44042778258C8223009102FC /* Helpers */,
+				44042777258C8209009102FC /* Resources */,
 				3213003624193DB70062FEF0 /* Info.plist */,
 			);
 			path = "Very Spacy Food";
@@ -156,6 +201,7 @@
 		32449EAF243216920044AA4B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3213004E241BA1610062FEF0 /* MenuItemCell.swift */,
 				32549F84242A5FC800073BF3 /* LoadingView.swift */,
 				32549F86242A5FD200073BF3 /* LoadingView.xib */,
 			);
@@ -169,6 +215,75 @@
 				3258CB8124D2DAB200C0CC8D /* Info.plist */,
 			);
 			path = "Very Very Spacy FoodUITests";
+			sourceTree = "<group>";
+		};
+		44042758258C8189009102FC /* VeryGoodSpacyFoodClip */ = {
+			isa = PBXGroup;
+			children = (
+				44042759258C8189009102FC /* AppDelegate.swift */,
+				4404275B258C8189009102FC /* SceneDelegate.swift */,
+				4404275D258C8189009102FC /* ViewController.swift */,
+				4404275F258C8189009102FC /* Main.storyboard */,
+				44042762258C818A009102FC /* Assets.xcassets */,
+				44042764258C818A009102FC /* LaunchScreen.storyboard */,
+				44042767258C818A009102FC /* Info.plist */,
+				44042768258C818A009102FC /* VeryGoodSpacyFoodClip.entitlements */,
+			);
+			path = VeryGoodSpacyFoodClip;
+			sourceTree = "<group>";
+		};
+		44042774258C81BB009102FC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3213002824193DB50062FEF0 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		44042775258C81CC009102FC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3213004C241B952E0062FEF0 /* MenuViewController.swift */,
+				32AAAC4924212C4200A68317 /* MenuItemDetailsViewController.swift */,
+				327F8E8824227A0200112868 /* CollectCreditCardDataViewController.swift */,
+				327F8E8E2423BE6A00112868 /* CheckoutViewController.swift */,
+				32549F88242BC56000073BF3 /* ConfirmationViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		44042776258C81F0009102FC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3213002E24193DB50062FEF0 /* Main.storyboard */,
+				3213003324193DB70062FEF0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		44042777258C8209009102FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32549F8A242E12A700073BF3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		44042778258C8223009102FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				32449EAD2431E9F20044AA4B /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4404277D258C8276009102FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44F8FCD8258C82DB004CE34B /* MenuItem.swift */,
+				44F8FCE2258C8309004CE34B /* MenuItemDataProvider.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C547A935D223323B9EEA2770 /* Frameworks */ = {
@@ -205,10 +320,12 @@
 				3213002224193DB50062FEF0 /* Frameworks */,
 				3213002324193DB50062FEF0 /* Resources */,
 				857539B5D8FF3AA9E105C874 /* [CP] Embed Pods Frameworks */,
+				4404276C258C818A009102FC /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4404276A258C818A009102FC /* PBXTargetDependency */,
 			);
 			name = "Very Spacy Food";
 			productName = "Spacy Food";
@@ -252,13 +369,30 @@
 			productReference = 3258CB7D24D2DAB200C0CC8D /* Very Very Spacy FoodUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		44042756258C8189009102FC /* VeryGoodSpacyFoodClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4404276F258C818A009102FC /* Build configuration list for PBXNativeTarget "VeryGoodSpacyFoodClip" */;
+			buildPhases = (
+				44042753258C8189009102FC /* Sources */,
+				44042754258C8189009102FC /* Frameworks */,
+				44042755258C8189009102FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeryGoodSpacyFoodClip;
+			productName = VeryGoodSpacyFoodClip;
+			productReference = 44042757258C8189009102FC /* VeryGoodSpacyFoodClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3213001D24193DB50062FEF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Very Good Security";
 				TargetAttributes = {
@@ -272,6 +406,9 @@
 					3258CB7C24D2DAB200C0CC8D = {
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = 3213002424193DB50062FEF0;
+					};
+					44042756258C8189009102FC = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -291,6 +428,7 @@
 				3213002424193DB50062FEF0 /* Very Spacy Food */,
 				3213003A24193DB70062FEF0 /* Very Spacy FoodTests */,
 				3258CB7C24D2DAB200C0CC8D /* Very Very Spacy FoodUITests */,
+				44042756258C8189009102FC /* VeryGoodSpacyFoodClip */,
 			);
 		};
 /* End PBXProject section */
@@ -318,6 +456,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44042755258C8189009102FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44042766258C818A009102FC /* LaunchScreen.storyboard in Resources */,
+				44042763258C818A009102FC /* Assets.xcassets in Resources */,
+				44042761258C8189009102FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3213004F241BA1610062FEF0 /* MenuItemCell.swift in Sources */,
+				44F8FCE3258C8309004CE34B /* MenuItemDataProvider.swift in Sources */,
 				3213002924193DB50062FEF0 /* AppDelegate.swift in Sources */,
 				32449EAE2431E9F20044AA4B /* Utils.swift in Sources */,
 				327F8E8924227A0200112868 /* CollectCreditCardDataViewController.swift in Sources */,
@@ -401,6 +550,7 @@
 				32549F85242A5FC800073BF3 /* LoadingView.swift in Sources */,
 				32549F89242BC56000073BF3 /* ConfirmationViewController.swift in Sources */,
 				32AAAC4A24212C4200A68317 /* MenuItemDetailsViewController.swift in Sources */,
+				44F8FCD9258C82DB004CE34B /* MenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +570,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		44042753258C8189009102FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4404275E258C8189009102FC /* ViewController.swift in Sources */,
+				4404275A258C8189009102FC /* AppDelegate.swift in Sources */,
+				4404275C258C8189009102FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -432,6 +592,11 @@
 			isa = PBXTargetDependency;
 			target = 3213002424193DB50062FEF0 /* Very Spacy Food */;
 			targetProxy = 3258CB8224D2DAB200C0CC8D /* PBXContainerItemProxy */;
+		};
+		4404276A258C818A009102FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44042756258C8189009102FC /* VeryGoodSpacyFoodClip */;
+			targetProxy = 44042769258C818A009102FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -448,6 +613,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3213003424193DB70062FEF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4404275F258C8189009102FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44042760258C8189009102FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44042764258C818A009102FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44042765258C818A009102FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -573,6 +754,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4ED15166E44F028784DBDD1 /* Pods-Very Spacy Food.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +778,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DA6F608D3217745D7C2E73C /* Pods-Very Spacy Food.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -701,6 +884,52 @@
 			};
 			name = Release;
 		};
+		4404276D258C818A009102FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = VeryGoodSpacyFoodClip/VeryGoodSpacyFoodClip.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4445Y664U5;
+				INFOPLIST_FILE = VeryGoodSpacyFoodClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vgs.very-spacy-food.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4404276E258C818A009102FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = VeryGoodSpacyFoodClip/VeryGoodSpacyFoodClip.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4445Y664U5;
+				INFOPLIST_FILE = VeryGoodSpacyFoodClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vgs.very-spacy-food.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -736,6 +965,15 @@
 			buildConfigurations = (
 				3258CB8524D2DAB200C0CC8D /* Debug */,
 				3258CB8624D2DAB200C0CC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4404276F258C818A009102FC /* Build configuration list for PBXNativeTarget "VeryGoodSpacyFoodClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4404276D258C818A009102FC /* Debug */,
+				4404276E258C818A009102FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

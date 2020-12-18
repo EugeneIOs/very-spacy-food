@@ -6,8 +6,8 @@ target 'Very Spacy Food' do
   use_frameworks!
 
   # Pods for Very Spacy Food
-  pod 'VGSCollectSDK', '1.7.0'
-  pod 'VGSCollectSDK/CardScan', '1.7.0'
+  pod 'VGSCollectSDK'
+  pod 'VGSCollectSDK/CardScan', '1.7.2'
 
   target 'Very Spacy FoodTests' do
     inherit! :search_paths

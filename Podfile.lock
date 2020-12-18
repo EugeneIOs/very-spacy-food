@@ -1,0 +1,27 @@
+PODS:
+  - CardScan (1.0.5048):
+    - CardScan/Core (= 1.0.5048)
+  - CardScan/Core (1.0.5048)
+  - VGSCollectSDK (1.7.2):
+    - VGSCollectSDK/Core (= 1.7.2)
+  - VGSCollectSDK/CardScan (1.7.2):
+    - CardScan (= 1.0.5048)
+    - VGSCollectSDK/Core
+  - VGSCollectSDK/Core (1.7.2)
+
+DEPENDENCIES:
+  - VGSCollectSDK
+  - VGSCollectSDK/CardScan (= 1.7.2)
+
+SPEC REPOS:
+  trunk:
+    - CardScan
+    - VGSCollectSDK
+
+SPEC CHECKSUMS:
+  CardScan: 10351d0482dac59379cfb907e0046aeaed568d0f
+  VGSCollectSDK: ac5395d85561c39257e7926d70d50a51fcc686fe
+
+PODFILE CHECKSUM: a5d4017ff92f6e0cfe9e793e1decb8106c92fac3
+
+COCOAPODS: 1.10.0
