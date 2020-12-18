@@ -23,7 +23,6 @@
 		327F8E8F2423BE6A00112868 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327F8E8E2423BE6A00112868 /* CheckoutViewController.swift */; };
 		32AAAC4A24212C4200A68317 /* MenuItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAAC4924212C4200A68317 /* MenuItemDetailsViewController.swift */; };
 		4404275A258C8189009102FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44042759258C8189009102FC /* AppDelegate.swift */; };
-		4404275C258C8189009102FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404275B258C8189009102FC /* SceneDelegate.swift */; };
 		4404275E258C8189009102FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404275D258C8189009102FC /* ViewController.swift */; };
 		44042761258C8189009102FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4404275F258C8189009102FC /* Main.storyboard */; };
 		44042763258C818A009102FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44042762258C818A009102FC /* Assets.xcassets */; };
@@ -98,7 +97,6 @@
 		3D4F9079FDCEB1FBDBF3B157 /* Pods-Spacy Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spacy Food.debug.xcconfig"; path = "Target Support Files/Pods-Spacy Food/Pods-Spacy Food.debug.xcconfig"; sourceTree = "<group>"; };
 		44042757258C8189009102FC /* VeryGoodSpacyFoodClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryGoodSpacyFoodClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44042759258C8189009102FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4404275B258C8189009102FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4404275D258C8189009102FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44042760258C8189009102FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44042762258C818A009102FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -220,12 +218,10 @@
 		44042758258C8189009102FC /* VeryGoodSpacyFoodClip */ = {
 			isa = PBXGroup;
 			children = (
-				44042759258C8189009102FC /* AppDelegate.swift */,
-				4404275B258C8189009102FC /* SceneDelegate.swift */,
-				4404275D258C8189009102FC /* ViewController.swift */,
-				4404275F258C8189009102FC /* Main.storyboard */,
-				44042762258C818A009102FC /* Assets.xcassets */,
-				44042764258C818A009102FC /* LaunchScreen.storyboard */,
+				44F8FCF0258C84CF004CE34B /* Application */,
+				44F8FCF2258C84F0004CE34B /* Storyboards */,
+				44F8FCF1258C84DA004CE34B /* Screens */,
+				44F8FCF3258C8501004CE34B /* Resources */,
 				44042767258C818A009102FC /* Info.plist */,
 				44042768258C818A009102FC /* VeryGoodSpacyFoodClip.entitlements */,
 			);
@@ -284,6 +280,39 @@
 				44F8FCE2258C8309004CE34B /* MenuItemDataProvider.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		44F8FCF0258C84CF004CE34B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				44042759258C8189009102FC /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		44F8FCF1258C84DA004CE34B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4404275D258C8189009102FC /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		44F8FCF2258C84F0004CE34B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4404275F258C8189009102FC /* Main.storyboard */,
+				44042764258C818A009102FC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		44F8FCF3258C8501004CE34B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44042762258C818A009102FC /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C547A935D223323B9EEA2770 /* Frameworks */ = {
@@ -576,7 +605,6 @@
 			files = (
 				4404275E258C8189009102FC /* ViewController.swift in Sources */,
 				4404275A258C8189009102FC /* AppDelegate.swift in Sources */,
-				4404275C258C8189009102FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
