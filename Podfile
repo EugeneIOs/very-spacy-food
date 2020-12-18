@@ -15,3 +15,11 @@ target 'Very Spacy Food' do
   end
 
 end
+
+target 'VeryGoodSpacyFoodClip' do
+
+	use_modular_headers!
+
+	pod 'VGSCollectSDK'
+
+end
