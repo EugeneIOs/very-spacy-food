@@ -1,0 +1,1 @@
+../../../VGSCollectSDK/Sources/VGSCollectSDK/VGSCollectSDK.h

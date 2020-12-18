@@ -1,4 +1,4 @@
-framework module VGSCollectSDK {
+module VGSCollectSDK {
   umbrella header "VGSCollectSDK-umbrella.h"
 
   export *

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0199F6541197D647FCB6174FFE734F7B"
-               BuildableName = "libVGSCollectSDK.a"
-               BlueprintName = "VGSCollectSDK"
+               BlueprintIdentifier = "889A41585BDAB849941888AB69A0B9A3"
+               BuildableName = "libPods-VeryGoodSpacyFoodClip.a"
+               BlueprintName = "Pods-VeryGoodSpacyFoodClip"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

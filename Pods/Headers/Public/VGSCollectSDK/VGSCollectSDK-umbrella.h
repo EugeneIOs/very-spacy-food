@@ -1,0 +1,1 @@
+../../../Target Support Files/VGSCollectSDK/VGSCollectSDK-umbrella.h

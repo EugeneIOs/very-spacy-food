@@ -1,0 +1,6 @@
+module Pods_VeryGoodSpacyFoodClip {
+  umbrella header "Pods-VeryGoodSpacyFoodClip-umbrella.h"
+
+  export *
+  module * { export * }
+}
